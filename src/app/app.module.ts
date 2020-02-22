@@ -14,6 +14,10 @@ import { APP_ROUTES } from './app.routes';
 //Modulos
 import { PagesModule } from './pages/pages.module';
 
+//Servicio
+
+import {SettingsService} from './services/settings.service';
+
 
 
 
@@ -30,7 +34,7 @@ import { PagesModule } from './pages/pages.module';
     FormsModule
 
   ],
-  providers: [],
+  providers: [SettingsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
