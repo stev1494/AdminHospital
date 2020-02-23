@@ -16,7 +16,9 @@ import { PagesModule } from './pages/pages.module';
 
 //Servicio
 
-import {SettingsService} from './services/settings.service';
+// import {SettingsService} from './services/service.index';
+import { ServiceModule } from './services/service.module';
+ServiceModule
 
 
 
@@ -31,10 +33,11 @@ import {SettingsService} from './services/settings.service';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
 
   ],
-  providers: [SettingsService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

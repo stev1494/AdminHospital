@@ -86,7 +86,9 @@
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules / chart.js / dist / Chart.js"
+              "node_modules / chart.js / dist / Chart.js",
+              "src/assets/js/custom.js"
+              
             ]
           }
         },
